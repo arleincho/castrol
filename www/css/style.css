@@ -1062,3 +1062,64 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
   font-size: 25px;
   text-align: right;
 }
+.facebook{
+  display: block;
+  height: 90%;
+  margin: 5% auto auto;
+  padding-top: 38px;
+  position: relative;
+  width: 90%;
+}
+.facebook img{
+  display: block;
+  margin: auto auto 40px;
+  width: 85%;
+}
+.facebook span{
+  color: #fff;
+}
+.cuadroFace1{
+  display: block;
+    height: 40%;
+    margin-top: 6px;
+    padding-top: 65px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.cuadroFace1 span,.cuadroFace1 p{
+  color: #fff;
+    display: block;
+    font-size: 0.7em;
+    margin: auto;
+    padding-left: 19px;
+    position: relative;
+    width: 33%;
+    z-index: 2;
+}
+.cuadroFace1 p{
+  margin-left: 33%;
+    width: 60%;
+}
+.cuadroFace1 img{
+  display: block;
+    left: 34%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    z-index: 0;
+}
+.parrafo2Face{
+    display: block;
+    font-size: 1.5em;
+    padding-left: 16px;
+    margin-top: -20px;
+    text-align: left;
+    width: 70%;
+    color:#fff;
+}
+.friends{
+  float: right;
+  width: 54% !important;
+}
