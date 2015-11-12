@@ -1,0 +1,959 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeSb';
+    src: url('../fonts/SegoeSb.eot');
+    src: url('../fonts/SegoeSb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SegoeSb.woff') format('woff'),
+         url('../fonts/SegoeSb.ttf') format('truetype'),
+         url('../fonts/SegoeSb.svg#SegoeSb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../fonts/segoeUI.eot');
+    src: url('../fonts/segoeUI.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoeUI.woff') format('woff'),
+         url('../fonts/segoeUI.ttf') format('truetype'),
+         url('../fonts/segoeUI.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeRegular';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeLight';
+    src: url('../fonts/SegoeL.eot');
+    src: url('../fonts/SegoeL.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SegoeL.woff2') format('woff2'),
+         url('../fonts/SegoeL.woff') format('woff'),
+         url('../fonts/SegoeL.ttf') format('truetype'),
+         url('../fonts/SegoeL.svg#SegoeLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+h1, h2, h3, h4, h5, h6{color: #fff;}
+.col-offset-5{margin-left: 5%;}
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+#logo {margin: 30px 0px;}
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {margin-top: 30px;}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+.header-skosh{
+  background: url('../images/bk-header.png') repeat-x center;
+  border: none;
+}
+.header-skosh .ion-navicon{
+  border: none;
+  background: transparent;
+  color: #FFF;
+  top: -5px
+}
+.header-skosh .ion-navicon:before{
+  font-size: 30px !important;
+}
+.header-skosh h1.title{top: 8px;}
+.header-skosh h1.title img{
+  vertical-align: middle;
+}
+.intro .introSlider{
+  height: 100%;
+}
+.introSlider .col{text-align: left;}
+.intro1{
+  background: url('../images/intro1.jpg') fixed center;
+  background-size: cover;
+}
+.introSlider h1{
+  line-height: 40px;
+  font-size:  37px;
+  font-family: 'robotomedium';
+}
+.introSlider h1, .introSlider h3{
+  position: relative;
+  top: 30px;
+}
+.intro2 h1, .intro2 h3 {
+  top:110px;
+}
+.intro3 h1, .intro3 h3 {
+  top:110px;
+}
+.intro4 h1, .intro4 h3 {
+  top:110px;
+}
+.intro5 h1, .intro5 h3 {
+  top:100px;
+}
+.introSlider h3{
+  font-size: 21px;
+  font-family: 'robotolight';
+}
+.introSlider h3 span{
+  font-family: 'robotomedium';
+  margin-right: 9px;
+}
+.intro2{
+  background: url('../images/intro2.jpg') fixed center;
+  background-size: cover;
+}
+.intro3{
+  background: url('../images/intro3.jpg') fixed center;
+  background-size: cover;
+}
+.intro4{
+  background: url('../images/intro4.jpg') fixed center;
+  background-size: cover;
+}
+.intro5{
+  background: url('../images/intro5.jpg') fixed center;
+  background-size: cover;
+}ont-size: 27px;
+}
+.introSlider{
+  bottom: 0;
+  top: 350px;
+}
+.introSlider .slider-pager {
+  top: 360px !important;
+}
+.introSlider .slider-pager .slider-pager-page{color: #FFF !important}
+.login-user{
+  position: absolute;
+  /*height: 171px;*/
+  width: 100%;
+  bottom:28px;
+  /*bottom:5px; Con el botón de facebook*/
+}
+.login-user .row{
+  padding: 0px 5px;
+}
+.login-user .col{
+  padding: 0;
+}
+.login-user .button.button-block{
+  margin-bottom: 0px;
+  font-family: 'SegoeSb';
+  padding-left: 27.01149425287356%;
+  text-align: left;
+}
+.login-user button, .edit-send button{
+  border: none;
+  border-radius: 0;
+  color: #FFF;
+}
+.login-user .sign-in, .edit-send .sign-in{
+  background: rgba(161, 118, 185, 0.6);
+  width: 50%;
+  font-family: 'SegoeSb';
+}
+.login-user button:hover{color: #FFF;}
+.login-user .sign-in-email{
+  line-height: 18px;
+  width: 48%;
+  float: right;
+}
+.login-user .sign-in-facebook{background: #3468af;}
+.login-user .sign-in-facebook span.circle-facebook{
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  display: block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 10px;
+  left: 28px;
+}
+.login-user .sign-in-facebook i{
+  top: 2px;
+  left: 26px;
+}
+.login-user .sign-in-facebook i:before{
+  font-size: 18px;
+}
+.login-user .sign-in-twitter{background: #4fc4f6;}
+.login-user .sign-in-twitter i:before{
+  font-size: 22px;
+  left: 14px;
+  position: absolute;
+}
+.forgot-pass{
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'SegoeRegular';
+  font-size: 14px;
+}
+.forgot-pass a{
+  color: #FFF;
+  text-decoration: none;
+}
+#send-drink{
+  background: url('../images/step-send.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+.send-drink{
+  position: absolute;
+  top: 50%;
+  top: calc((100% - 201px) / 2);
+}
+.send-drink button{
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+  font-family: 'SegoeSb';
+  font-size: 28px;
+}
+.send-drink button:before{
+  font-size: 28px !important;
+}
+/*.send-drink .space-between-social{margin-bottom: 21px;}*/
+.space-between-social{margin-bottom: 20px;}
+.send-drink .btn-facebook{
+  background: #3468af;
+  padding-left: 19px
+}
+.send-drink .btn-twitter{
+  background: #4fc4f6;
+}
+.send-drink .btn-message{
+  background: #a176b9;
+  padding-left: 40px !important;
+}
+.send-drink .btn-facebook, .send-drink .btn-twitter, .send-drink .btn-message{
+  color: #FFF;
+  border-radius: 0px 0px 3px 3px
+}
+.icon-message{
+  position: absolute;
+  left: 10px;
+  top: 11px;
+}
+.send-title{
+  position: relative;
+  top: 78px;
+}
+.send-title h3{
+  font-size: 29px;
+  margin: auto;
+  text-align: center;
+}
+.share-title h3{
+  font-size: 40px;
+  margin: 24% auto 0;
+  text-align: center;
+}
+.login-title{
+  position: relative;
+  top: 113px;
+}
+.login-title h3{
+  margin: auto;
+  font-family: 'SegoeSb';
+}
+#signup-email{
+  background: url('../images/signup-email.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+.signup-email{
+  position: absolute;
+  top: 35%;
+}
+.signup-email input{
+  color: #919191;
+  font-family: 'SegoeUI';
+  font-size: 16px;
+}
+.signup-email input::-webkit-input-placeholder {
+   color: #919191;
+}
+.signup-email input:-moz-placeholder { /* Firefox 18- */
+   color: #919191;  
+}
+.signup-email input::-moz-placeholder {  /* Firefox 19+ */
+   color: #919191;  
+}
+.signup-email input:-ms-input-placeholder {  
+   color: #919191;  
+}
+.item-singup{width: 100%;}
+.btn-signup-mail{
+  background: #a176b9;
+  color: #FFF;
+  font-family: 'SegoeSb';
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  /*width: 271px !important;*/
+  position: relative;
+  left: -1px;
+  font-size: 28px;
+  margin-top: 0 !important;
+}
+.send-bar-buttons .tabs{
+  height: 108px;
+  top: 0 !important;
+  background: #543b63;
+}
+.send-bar-buttons a{
+  border: none;
+  border-radius: 0;
+  /*background: #543b63;*/
+  padding-top: 20px !important;
+}
+.tab-friend{
+  background: url('../images/friends.png') no-repeat center;
+  background-size: 45px;
+}
+.tab-city{
+  background: url('../images/location.png') no-repeat center;
+  background-size: 49.5px;
+}
+.tab-settings{
+  background: url('../images/drinks.png') no-repeat center;
+  background-size: 61.5px;
+}
+.tab-drink{}
+.drink-link{padding-top: 25px !important;}
+.send-bar-buttons .pane{
+  background: transparent; 
+}
+.pane-friend, .pane-city, .pane-venue, .pane-drink{padding-top: 108px;}
+.pane-city, .pane-venue{
+  background: url('../images/drink-background-purple.jpg') center fixed no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.pane-city, .pane-venue{
+  background-size: cover;
+  height: 100%;
+}
+.pane-drink{
+  background: url('../images/drink-background-purple.jpg') center fixed no-repeat;
+  background-size: cover;
+}
+.send-bar-buttons a.activated, .send-bar-buttons .tab-item-active{background-color: #a176b9;}
+.search-contact-input{margin: 0;}
+.step-send-minititle{
+  background: #ededed;
+  height: 38px;
+  text-align: center;
+  border: none;
+}
+.step-send-minititle input{
+  text-align: center;
+  color: #656565;
+  font-family: 'SegoeSb';
+  font-size: 18px;
+  line-height: 24px
+}
+.step-send-minititle input::-webkit-input-placeholder {
+  color: #656565;
+}
+.step-send-minititle input:-moz-placeholder { /* Firefox 18- */
+  color: #656565;  
+}
+.step-send-minititle input::-moz-placeholder {  /* Firefox 19+ */
+  color: #656565;  
+}
+.step-send-minititle input:-ms-input-placeholder {  
+  color: #656565;  
+}
+.step-send-minititle-down{
+  position: absolute;
+  bottom: 0;
+}
+.step-send-minititle h4{
+  color: #656565;
+  font-family: 'SegoeSb';
+  margin: auto;
+}
+.step-send-minititle i{
+  position: absolute;
+  font-size: 20px;
+  left: 100px;
+  top: 60px;
+  color: #656565;
+}
+.second-send-title{
+  color: #fff;
+  text-align: center;
+  height: 53px;
+}
+.second-send-title h2{
+  font-family: 'SegoeLight';
+  line-height: 53px;
+}
+.second-send-title-drink h2{
+  font-family: 'SegoeSb';
+  font-size: 25px;
+}
+.second-send-title-review{margin-top: 10px}
+.select-recipient{
+  color: #656565;
+  font-family: 'SegoeSb';
+  font-size: 16px;
+  padding: 10px 5px 0px 10px;
+}
+.search-contacts{
+  height: 300px;
+  height: calc(100% - 263px);
+}
+.search-contacts .item-avatar > img:first-child{
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  max-height: 62px;
+  max-width: 62px;
+  background: #eaeaea;
+  top: 12px;
+  left: 6px;
+}
+.search-contacts .item h2{
+  font-family: 'robotobold';
+  font-size: 21px;
+  width: 155px
+}
+.search-contacts .item p{font-family: 'SegoeUI';}
+.search-contacts .item h2, .search-contacts .item p{
+  color: #9095aa;
+  position: relative;
+  left: 21px;
+}
+.search-contacts .item{
+  border-color: #f1f1f1;
+  border-left: 0px;
+  border-right: 0px;
+  min-height: 93px !important;
+}
+.search-contacts .scroll-bar-indicator, .search-city .scroll-bar-indicator{
+  background: #946cab;
+}
+.search-contacts.scroll-view{
+  height: 380px;
+  /*height: 300px;*/
+  /*height: calc(100% - 213px);*/
+}
+.confirm-btn{
+  position: absolute;
+  bottom: 0;
+}
+.add-message{
+  margin: auto;
+  position: relative;
+}
+.add-message h2{
+  color: #646464;
+  padding-right: 44px;
+  font-family: 'SegoeSb';
+  margin-bottom: 0px;
+}
+.add-message i:before{
+  color: #b9b9b9;
+  font-size: 50px;
+  top: 4px;
+  position: relative
+}
+.enter-message{
+  margin: auto;
+  border-top: 1px solid #eeeeee;
+}
+.enter-message{font-family: 'SegoeSb';}
+.skip-add{padding: 5px 0;}
+.skip-add .col{margin: auto;}
+.enter-message textarea{
+  height: 120px;
+  font-family: 'SegoeLight';
+}
+.btn-enter-message{
+  background: #a176b9;
+  color: #FFF;
+  text-align: center;
+  height: 31px;
+  line-height: 27px;
+  border: none;
+  width: 30%;
+  font-family: 'robotomedium';
+  position: relative;
+  bottom: 10px;
+  margin-right: 1%
+}
+/*.btn-add{float: right;}*/
+.search-city .row, .search-city .col{padding: 5px 0;}
+.search-city.scroll-view{
+  height: 300px;
+  height: calc(100% - 128px);
+}
+.search-venue{
+  height: 300px;
+  height: calc(100% - 90px) !important;
+}
+.search-city .col-90{margin: auto}
+.search-city li{
+  height: 58px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+}
+.skosh-selected{background: rgba(161, 118, 185, 0.5);}
+.search-city li .col{
+  border-bottom: 1px solid #6f5e81;
+  height: 58px;
+  line-height: 52px;
+}
+.search-city li.selected{
+  background: rgba(161,118,185,.5);
+}
+.selection{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 25px;
+  top: 14px;
+}
+.selection img{max-width: 100%}
+.drink-content{
+  height: 417px;
+  /*height: calc(100% - 151px);*/
+}
+.slide-drink-title{
+  color: #FFF;
+  height: 63px;
+  text-align: center;
+}
+.slide-drink-title h2{
+  line-height: 63px;
+  font-family: 'SegoeSb';
+}
+.drink-content .slider{margin-top: 0px;}
+.drink-content .slider-slide{
+  background: transparent;
+  height: 300px;
+  height: calc(100% - 50px);
+}
+.drink-content .slider{height: 329px;}
+.drink-content .slider-pager .slider-pager-page{color: #FFF;}
+.drink-content .slider-pager{bottom: 40px;}
+.drink-icon{
+  min-height: 175px;
+}
+.drink-content .drink-icon img{
+  max-height: 220px;
+  margin-top: -10px;
+}
+.drink-name{
+  font-family: 'robotomedium';
+  text-align: left;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+.drink-price{
+  font-family: 'SegoeLight';
+  text-align: right;
+  padding-right: 15px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  .drink-name, .drink-price{
+    font-size: 21px !important;
+    padding-top: 5px !important;
+  }
+  .drink-content .drink-icon img{
+    max-height: 200px !important;
+  }
+  .drink-content .slider-pager{bottom: 50px !important;}
+}
+@media screen and (max-device-width: 640px), screen and (max-device-width: 667px), screen and (max-width: 480px) { 
+  .drink-name, .drink-price{
+    font-size: 22px !important;
+    padding-top: 15px !important;
+  }
+  .drink-content .drink-icon img{
+    max-height: 180px !important;
+  }
+  /**.drink-content .slider-pager{bottom: 0px !important;}**/
+}
+
+.drink-name, .drink-price{
+  color: #FFF;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.skosh-sidepanel{background: #220931;}
+.skosh-sidepanel header{
+  height: 82px !important;
+  background: #a176b9 !important;
+  color: #FFF !important;
+  border: none;
+}
+.avatar-sidepane{
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: url('../images/avatar.png');
+  background-size: 100%;
+  top: -3px;
+  left: 10px;
+  position: absolute;
+}
+.skosh-sidepanel header img{
+  max-height: 48px !important;
+  max-width: 48px !important;
+  border: none;
+  border-radius: 50%;
+  top: -3px !important;
+}
+.skosh-sidepanel .item{
+  min-height: 65px;
+  background: transparent;
+  border: none;
+}
+.skosh-sidepanel header h2{
+  font-family: 'SegoeRegular';
+  position: relative;
+  left: -35px;
+  font-size: 14px;
+  min-width: 110px;
+  top: -3px;
+}
+.skosh-sidepanel .has-header {top: 63px;}
+.sidepanel-content{margin-top: 17px;}
+.sidepanel-item{height: 66.5px}
+.sidepanel-content .item{text-transform: uppercase;}
+.skosh-sidepanel .item-complex .item-content{background: transparent;}
+.skosh-sidepanel .item{
+  line-height: 67px;
+  overflow: visible
+}
+.skosh-sidepanel .item-complex .item-content, .skosh-sidepanel .item{color: #acacac;}
+.logout-item i{font-size: 25px !important;}
+.skosh-icons{
+  position: absolute;
+  left: 20px;
+  top: 21px;
+}
+.skosh-icons img{max-height: 25px;}
+/*.sidepanel-content .item-icon-left{padding-left: 74px;}*/
+.review-content{
+  background: url('../images/drink-location.png') center fixed no-repeat;
+  background-size: cover;
+}
+.review-content h3{
+  font-family: 'robotomedium';
+  margin-bottom: 10px
+}
+.review-content h4{
+  font-family: 'SegoeLight';
+  margin-top: 5px
+}
+.review-content h4.title-review{
+  font-family: 'SegoeSb';
+  margin-top: -10px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px
+  background: #331f3d; /* Old browsers */
+  background: -moz-linear-gradient(left,  #331f3d 0%, #25172c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#331f3d), color-stop(100%,#25172c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #331f3d 0%,#25172c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #331f3d 0%,#25172c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #331f3d 0%,#25172c 100%); /* IE10+ */
+  background: linear-gradient(to right,  #331f3d 0%,#25172c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331f3d', endColorstr='#25172c',GradientType=1 ); /* IE6-9 */
+}
+.send-to{
+  text-align: center;
+  font-size: 17px
+}
+.review-content .edit-send{
+  font-family: 'SegoeLight';
+  margin-top: 5px;
+}
+.review-details{
+  border-bottom: 1px solid #695a76;
+  width: 80%;
+  margin: auto;
+}
+.review-detail{
+  color: #FFF;
+  font-family: 'SegoeSb';
+  font-size: 20px
+}
+.review-answer{
+  text-align: right;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.review-detail, .review-answer{
+  color: #FFF;
+  padding: 0px;
+  height: 30px;
+  line-height: 40px
+}
+.review-detail-total{
+  font-size: 22px;
+  border-bottom: 0px;
+  font-family: 'SegoeSb';
+}
+.send-edit-details{margin-top: 40px !important;}
+/*.review-content .edit-send span.edit-cont{padding-right: 5px;}*/
+.send-what{margin-top: 10px;}
+.edit-button{width: 48% !important;}
+.friend-content{
+  height: 300px;
+  height: calc(100% - 210px);
+}
+.skoshing-pic{
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin: 0 auto 16px auto;
+  background: #FFF;
+}
+.skoshing-pic img{
+  width: 100%;
+  border-radius: 50%;
+}
+.center-element{margin: auto;}
+.top-bot-no-padding{padding: 0 5px;}
+.no-padding{padding: 0;}
+
+.animate-enter, 
+.animate-leave
+{ 
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+} 
+ 
+.animate-enter {
+    left: 100%;
+}
+.animate-enter.animate-enter-active {
+    left: 0;
+}
+ 
+.animate-leave {
+    left: 0;
+}
+.animate-leave.animate-leave-active{
+    left: -100%;
+}
+.sent-content{
+  background: url('../images/sent.jpg') no-repeat center fixed;
+  background-size: cover; 
+}
+.benn-sent{
+  text-align: center;
+  margin-top: 90px;
+}
+.benn-sent h2{
+  color: #FFF;
+  font-family: 'robotomedium';
+  text-align: center;
+}
+.intro-sent{
+  color: #FFF;
+  font-family: 'robotolight';
+  text-align: center;
+  font-size: 19px;
+  margin: 14px auto 0;
+}
+.sent-button{
+  background-color: rgba(161, 118, 185, 0.6);
+  color: #FFF;
+  font-family: 'robotomedium';
+  border: none;
+  border-radius: 0 0 3px 3px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 47px
+}
+.begin-sent-buttons{margin-top: 36px !important;}
+#settings{
+  background: #f1f1f1;
+}
+.settings-up{
+  background: #c194db;
+  color: #FFF;
+  height: 35px;
+  margin-bottom: 43px !important;
+}
+.settings-up .col{text-align: center;}
+.settings-up button{
+  background: transparent;
+  color: #FFF;
+  border: none;
+  max-height: 35px;
+  min-height: 0;
+  line-height: 26px;
+  font-family: 'SegoeUI';
+}
+.settings-up button.button:hover{
+  color: #FFF;
+  background: transparent;
+}
+.settings-up button.button:active{background: transparent;}
+.title-settings{
+  font-size: 16px;
+  font-family: 'SegoeSb';
+  line-height: 26px;
+}
+.content-settings{
+  background: #FFF;
+  padding-top: 15px !important;
+}
+.content-settings li.item{
+  font-family: 'SegoeLight';
+  color: #7a7a7a;
+  border-left: none;
+  border-right: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.content-settings li.item-toggle:first-child{border-top:none;}
+.content-settings li.item-toggle:last-child{border-bottom:none;}
+.add-way{
+  color: #7a7a7a;
+  font-family: 'SegoeSb';
+  text-transform: uppercase;
+  text-align: right;
+}
+.add-way:first-child{text-align: left;}
+.add-pay{margin-top: 10px !important;}
+.add-pay li.item{
+  font-family: 'SegoeSb';
+  color: #7a7a7a;
+  border: none;
+}
+.credit{
+  background: #FFF;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+}
+.credit a{text-decoration: none;}
+.credit h4{
+  font-family: 'SegoeSb';
+  color: #7a7a7a;
+}
+.credit h5{
+  font-family: 'SegoeSb';
+  color: #aaaaaa;
+  font-size: 12px;
+}
+.close-button{
+  color: #FFF;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 50px;
+}
+.review-total{
+  text-align: right;
+  padding-right: 22px ;
+}
+.add-pay-method{
+  
+}
+.static-content{
+  background: url('../images/drink-background.jpg') center fixed no-repeat;
+  background-size: cover;
+  color: #FFF; 
+}
+ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
+  bottom: 0px !important;
+}
+.scroll_review_height {
+  height: 220px;
+}
+.skosh_footer_bar_steps {
+  padding: 0px !important;
+  height: 39px !important;
+}
+.title.purchase-footer.bar-dark.bar-footer{
+  right: 0;
+  left: 0;
+  padding: 0px;
+  text-align: center;
+  display: block !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.begin_warn {
+  color: #fff;
+  padding: 5px;
+}
+.begin_warn input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.begin_warn span {
+  color: #fff;
+  margin-left:25px;
+  display: block;
+  margin-top: -23px
+}
