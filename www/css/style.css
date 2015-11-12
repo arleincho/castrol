@@ -122,7 +122,10 @@ h1, h2, h3, h4, h5, h6{color: #fff;}
 }
 .introSlider .col{text-align: left;}
 .intro1{
-  background: url('../images/intro1.jpg') fixed center;
+  background: -webkit-radial-gradient(#009248, #005d28); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#009248, #005d28); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#009248, #005d28); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#009248, #005d28); /* Standard syntax */
   background-size: cover;
 }
 .introSlider h1{
@@ -155,28 +158,39 @@ h1, h2, h3, h4, h5, h6{color: #fff;}
   margin-right: 9px;
 }
 .intro2{
-  background: url('../images/intro2.jpg') fixed center;
   background-size: cover;
 }
 .intro3{
-  background: url('../images/intro3.jpg') fixed center;
+  background: -webkit-radial-gradient(#009248, #005d28); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#009248, #005d28); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#009248, #005d28); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#009248, #005d28); /* Standard syntax */
   background-size: cover;
 }
 .intro4{
-  background: url('../images/intro4.jpg') fixed center;
+  background: -webkit-radial-gradient(#009248, #005d28); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#009248, #005d28); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#009248, #005d28); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#009248, #005d28); /* Standard syntax */
   background-size: cover;
 }
 .intro5{
-  background: url('../images/intro5.jpg') fixed center;
+  
   background-size: cover;
-}ont-size: 27px;
+}
+.intro6{
+  background: -webkit-radial-gradient(#2655a5, #262c8f); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#2655a5, #262c8f); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#2655a5, #262c8f); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#2655a5, #262c8f); /* Standard syntax */
+}
 }
 .introSlider{
   bottom: 0;
   top: 350px;
 }
 .introSlider .slider-pager {
-  top: 360px !important;
+  top: 92% !important;
 }
 .introSlider .slider-pager .slider-pager-page{color: #FFF !important}
 .login-user{
@@ -956,4 +970,95 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
   margin-left:25px;
   display: block;
   margin-top: -23px
+}
+.hello{
+  display: block;
+  height: 67%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  width: 81%;
+  margin-top: 20%;
+}
+.redes{  
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url('../img/redes-01.png') fixed center no-repeat;
+  background-size: 80%;
+}
+.nubeSocial{
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+#nube{
+  color: #fff;
+  display: block;
+  padding: 29px 14px 14px;
+  position: relative;
+  z-index: 1;
+}
+.nubeSocial img{
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.policy{
+  display: block;
+  height: 100%;
+  margin: auto;
+  width: 95%;
+}
+.policy img{
+  left: 4%;
+  position: absolute;
+  top: 24%;
+  width: 92%;
+  z-index: 0;
+}
+#titulo{
+  background: #eb1b2e none repeat scroll 0 0;
+  font-size: 25px;
+  margin: 35% auto auto;
+  padding: 14px;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  z-index: 2;
+}
+#textPolicy{
+  display: block;
+  font-size: 1.1em;
+  margin: auto;
+  top: 45px;
+  width: 85%;
+  z-index: 2;
+}
+.ipad{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.ipad img{
+  display: block;
+    left: -40%;
+    position: relative;
+    width: 180%;
+}
+#tit1{
+  color: #000;
+  display: block;
+  font-size: 25px;
+  margin-top: 17%;
+  text-align: right;
+}
+#tit2{
+  color: #eb1b2e;
+  display: block;
+  font-size: 25px;
+  text-align: right;
 }
