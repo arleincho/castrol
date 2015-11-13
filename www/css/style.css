@@ -72,6 +72,36 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crimson Text'), local('CrimsonText-Roman'), url(../Crimson400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crimson Text Bold'), local('CrimsonText-Bold'), url(../Crimson600.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crimson Text Italic'), local('CrimsonText-Italic'), url(../CrimsonItalic400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Crimson Text Semibold Italic'), local('CrimsonText-SemiboldItalic'), url(../CrimsonItalic600.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Crimson Text Bold Italic'), local('CrimsonText-BoldItalic'), url(../CrimsonItalic700.woff2) format('woff2');
+}
 body {
   cursor: url('http://ionicframework.com/img/finger.png'), auto;
 }
@@ -179,6 +209,12 @@ h1, h2, h3, h4, h5, h6{color: #fff;}
   background-size: cover;
 }
 .intro6{
+  background: -webkit-radial-gradient(#2655a5, #262c8f); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#2655a5, #262c8f); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(#2655a5, #262c8f); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#2655a5, #262c8f); /* Standard syntax */
+}
+.intro7{
   background: -webkit-radial-gradient(#2655a5, #262c8f); /* For Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#2655a5, #262c8f); /* For Opera 11.1 to 12.0 */
   background: -moz-radial-gradient(#2655a5, #262c8f); /* For Firefox 3.6 to 15 */
@@ -1017,13 +1053,13 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
   left: 4%;
   position: absolute;
   top: 24%;
-  width: 92%;
+  width: 100%;
   z-index: 0;
 }
 #titulo{
   background: #eb1b2e none repeat scroll 0 0;
-  font-size: 25px;
-  margin: 35% auto auto;
+  font-size: 1.5em;
+  margin: 18% auto auto;
   padding: 14px;
   position: relative;
   text-align: center;
@@ -1044,10 +1080,10 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
   width: 100%;
 }
 .ipad img{
+  clear: both;
   display: block;
-    left: -40%;
-    position: relative;
-    width: 180%;
+  position: relative;
+  width: 100%;
 }
 #tit1{
   color: #000;
@@ -1069,6 +1105,7 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
   padding-top: 38px;
   position: relative;
   width: 90%;
+  font-family: "robotolight";
 }
 .facebook img{
   display: block;
@@ -1077,11 +1114,17 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
 }
 .facebook span{
   color: #fff;
+  display: block;
+  line-height: 1.2;
+  margin: auto;
+  text-align: left;
+  width: 88%;
+  font-family: "robotobold";
 }
 .cuadroFace1{
   display: block;
     height: 40%;
-    margin-top: 6px;
+    margin-top: 40px;
     padding-top: 65px;
     position: relative;
     text-align: left;
@@ -1089,17 +1132,19 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
 }
 .cuadroFace1 span,.cuadroFace1 p{
   color: #fff;
-    display: block;
-    font-size: 0.7em;
-    margin: auto;
-    padding-left: 19px;
-    position: relative;
-    width: 33%;
-    z-index: 2;
+  display: block;
+  font-size: 0.7em;
+  margin: -4% auto auto 39%;
+  padding-left: 0;
+  position: relative;
+  width: 50%;
+  z-index: 2;
 }
 .cuadroFace1 p{
-  margin-left: 33%;
-    width: 60%;
+  line-height: 1.3;
+  margin-left: 39%;
+  margin-top: 3%;
+  width: 50%;
 }
 .cuadroFace1 img{
   display: block;
@@ -1111,15 +1156,159 @@ ion-scroll.content.search-contacts.scroll-view.ionic-scroll {
     z-index: 0;
 }
 .parrafo2Face{
+    color: #fff;
     display: block;
-    font-size: 1.5em;
+    font-family: "robotobold";
+    font-size: 1.2em;
     padding-left: 16px;
-    margin-top: -20px;
+    position: relative;
     text-align: left;
+    top: -42px;
     width: 70%;
-    color:#fff;
 }
 .friends{
   float: right;
+  left: 51%;
+  position: absolute;
+  top: 86%;
   width: 54% !important;
+}
+.facebook2{
+  display: block;
+  margin: auto;
+  font-family: "robotolight";
+  width: 90%;
+}
+#face2cont{
+  display: block;
+  margin-top: 10%;
+  padding-left: 17%;
+  padding-right: 12%;
+  position: absolute;
+  width: 100%;
+}
+#face2cont span{
+ display: block;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    margin-left: 2%;
+    margin-top: 33%;
+    position: absolute;
+    text-align: left;
+    width: 69%;
+    z-index: 2;
+}
+#face2cont strong{
+  color: #2655a5;
+    display: block;
+    font-size: 1em;
+    margin-left: 2%;
+    margin-top: 23%;
+    position: absolute;
+    text-align: left;
+    width: 67%;
+    z-index: 1;
+    line-height: 1;
+}
+#face2cont img{
+  left: 16%;
+    margin-top: 18%;
+    position: absolute;
+    width: 74%;
+    z-index: 0;
+}
+
+#mesaFace2{
+
+}
+#parrafo1Face2{
+  clear: both;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin-top: 90%;
+  position: absolute;
+  text-align: left;
+  width: 90%;
+}
+#parrafo2Face2{
+  display: block;
+  margin-top: 78%;
+  position: absolute;
+  text-align: left;
+  width: 90%;
+  color: #fff;
+}
+#face2cont2{
+  display: block;
+  margin-top: 116%;
+  position: absolute;
+  width: 89%;
+}
+#face2cont2 strong{
+  color: #2655a5;
+  display: block;
+  left: 32%;
+  position: absolute;
+  text-align: right;
+  top: 24px;
+  width: 62%;
+  z-index: 2;
+}
+#face2cont2 span{
+  display: block;
+    left: 29%;
+    line-height: 1;
+    position: absolute;
+    text-align: right;
+    top: 55px;
+    width: 65%;
+    z-index: 1;
+}
+#face2cont2 img{
+display: block;
+    left: 14%;
+    position: absolute;
+    width: 87%;
+    z-index: 0;
+}
+.twitter1{
+  font-family: "robotolight";
+  height: 100%;
+  margin: auto;
+  width: 90%;
+}
+.twitter1 img{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 14% auto auto;
+  padding-bottom: 20px;
+  position: relative;
+  width: 79%;
+}
+.twitter1 strong{
+  display: block;
+  text-align: left;
+  width: 100%;
+  clear: both;
+  margin-top: 20px;
+  color: #2655a5;
+}
+.twitter1 span{
+  clear: both;
+  display: block;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.twitter2 img{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 36% auto auto;
+  padding-bottom: 20px;
+  position: absolute;
+  width: 100%;
 }
