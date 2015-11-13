@@ -1290,7 +1290,7 @@ display: block;
   clear: both;
   display: block;
   float: left;
-  margin: 14% auto auto;
+  margin: 7% auto auto;
   padding-bottom: 20px;
   position: relative;
   width: 79%;
@@ -1300,7 +1300,7 @@ display: block;
   text-align: left;
   width: 100%;
   clear: both;
-  margin-top: 20px;
+  margin-top: 16px;
   color: #2655a5;
 }
 .twitter1 span{
@@ -1309,7 +1309,7 @@ display: block;
   position: relative;
   text-align: left;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .twitter2 img{
   clear: both;
@@ -1436,7 +1436,7 @@ display: block;
 .fin span{
   display: block;
   font-family: "robotolight";
-  margin: 56% auto auto;
+  margin: 45% auto auto;
   text-align: left;
   width: 90%;
 }
